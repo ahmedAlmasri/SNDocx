@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SNDocx_Example' do
+  pod 'SNDocx', :path => '../'
+
+  target 'SNDocx_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
