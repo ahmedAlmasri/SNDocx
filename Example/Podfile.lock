@@ -1,0 +1,16 @@
+PODS:
+  - SNDocx (0.1.0)
+
+DEPENDENCIES:
+  - SNDocx (from `../`)
+
+EXTERNAL SOURCES:
+  SNDocx:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SNDocx: ceab19545053462f64a37ed63062be90d3f51a25
+
+PODFILE CHECKSUM: cdbfd3d57ce87fb16c4b5017a239175eea82c4e8
+
+COCOAPODS: 1.5.0

@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import SNDocx
 
 class ViewController: UIViewController {
 
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let a = SNDocx()
+         a.printAA()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
