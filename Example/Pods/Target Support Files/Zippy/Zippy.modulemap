@@ -1,0 +1,6 @@
+framework module Zippy {
+  umbrella header "Zippy-umbrella.h"
+
+  export *
+  module * { export * }
+}

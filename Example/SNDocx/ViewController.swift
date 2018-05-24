@@ -12,10 +12,19 @@ import SNDocx
 class ViewController: UIViewController {
 
  
+    @IBOutlet weak var myTextView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let a = SNDocx()
-         a.printAA()
+        
+        guard let originalFileURL = Bundle.main.url(forResource: "test", withExtension: "docx") else {
+            print("file not found :( ")
+            return
+        }
+        
+        let result = SNDocx.shared.getText(fileUrl: originalFileURL)
+        myTextView.text = result
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

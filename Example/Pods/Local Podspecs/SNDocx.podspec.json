@@ -2,7 +2,7 @@
   "name": "SNDocx",
   "version": "0.1.0",
   "summary": "SNDocx Parse Docx file get Text",
-  "swift_version": "4.0",
+  "swift_version": "3.0",
   "description": "Sample  Convert Docx file to  string text useing Zippy Parse",
   "homepage": "https://github.com/ahmedAlmasri/SNDocx",
   "license": {

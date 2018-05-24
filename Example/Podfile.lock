@@ -1,16 +1,24 @@
 PODS:
-  - SNDocx (0.1.0)
+  - SNDocx (0.1.0):
+    - Zippy (~> 0.2.1)
+  - Zippy (0.2.1)
 
 DEPENDENCIES:
   - SNDocx (from `../`)
+  - Zippy (~> 0.2.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Zippy
 
 EXTERNAL SOURCES:
   SNDocx:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SNDocx: ceab19545053462f64a37ed63062be90d3f51a25
+  SNDocx: 7e505b8544e05c7c2a40d59c43d0d6c96a887232
+  Zippy: f9e88ce43474b27d58dbb88a1cb25a84f9bfeb0d
 
-PODFILE CHECKSUM: cdbfd3d57ce87fb16c4b5017a239175eea82c4e8
+PODFILE CHECKSUM: 2b2a3fb09fd269e69a40f6179d09992c0df5e335
 
 COCOAPODS: 1.5.0

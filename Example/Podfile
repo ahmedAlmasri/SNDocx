@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'SNDocx_Example' do
   pod 'SNDocx', :path => '../'
+  pod 'Zippy', '~> 0.2.1' 
   target 'SNDocx_Tests' do
     inherit! :search_paths
 
