@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		401A4E4C20B58E5300D35AE2 /* test.docx in Resources */ = {isa = PBXBuildFile; fileRef = 401A4E4B20B58D7400D35AE2 /* test.docx */; };
+		405F751820BFE16B00D285EF /* Test.docx in Resources */ = {isa = PBXBuildFile; fileRef = 405F751720BFE12E00D285EF /* Test.docx */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		401A4E4B20B58D7400D35AE2 /* test.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.docx; sourceTree = "<group>"; };
+		405F751720BFE12E00D285EF /* Test.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Test.docx; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SNDocx_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNDocx_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		607FACD21AFB9204008FA782 /* Example for SNDocx */ = {
 			isa = PBXGroup;
 			children = (
-				401A4E4B20B58D7400D35AE2 /* test.docx */,
+				405F751720BFE12E00D285EF /* Test.docx */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -202,8 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				405F751820BFE16B00D285EF /* Test.docx in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				401A4E4C20B58E5300D35AE2 /* test.docx in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

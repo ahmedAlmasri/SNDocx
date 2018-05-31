@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        guard let originalFileURL = Bundle.main.url(forResource: "test", withExtension: "docx") else {
+        guard let originalFileURL = Bundle.main.url(forResource: "Test", withExtension: "docx") else {
             print("file not found :( ")
             return
         }
