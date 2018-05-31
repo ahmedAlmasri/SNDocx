@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SNDocx'
   s.version          = '0.1.0'
-  s.summary          = 'SNDocx Parse Docx file get Text'
+  s.summary          = 'Extracts the text from the Docx file'
   s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-     Sample  Convert Docx file to  string text useing Zippy Parse
+    Extracts the text from the Docx files and converts them into a valuable object that can be used
                       DESC
 
   s.homepage         = 'https://github.com/ahmedAlmasri/SNDocx'
