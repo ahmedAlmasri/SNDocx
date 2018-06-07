@@ -1,8 +1,9 @@
 # SNDocx
+ 
 
  Extracts the text from the Docx files and converts them into a valuable object that can be used
 
-
+ 
 [![CI Status](https://img.shields.io/travis/ahmedAlmasri/SNDocx.svg?style=flat)](https://travis-ci.org/ahmedAlmasri/SNDocx)
 [![Version](https://img.shields.io/cocoapods/v/SNDocx.svg?style=flat)](https://cocoapods.org/pods/SNDocx)
 [![License](https://img.shields.io/cocoapods/l/SNDocx.svg?style=flat)](https://cocoapods.org/pods/SNDocx)
